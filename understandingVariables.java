@@ -22,6 +22,10 @@ public class understandingVariables {
 		float value1 = 1.666666f; // 7 decimal places
 		double value2 = 1.6666666666666667d; // 16 decimal places
 		
+		// Boolean data types and char
+		boolean var = true; // Boolean values only contain 'true' or 'false'
+		char var1 = '@'; // Char are single-length enitities being an alphabet, a digit or a Symbol
+		
 		System.out.println("---Integers---");
 		System.out.println("Byte " + byteMax);
 		System.out.println("Byte " + byteMin);
@@ -33,8 +37,8 @@ public class understandingVariables {
 		System.out.println("Long " + longMin);
 		
 		System.out.println("\n---Floating---");
-		System.out.println("Float " +value1);
-		System.out.println("Double " +value2);
+		System.out.println("Float " + value1);
+		System.out.println("Double " + value2);
 	}
 
 }
